@@ -6,7 +6,7 @@ Adobe CEP Extension開発についてのレポジトリ
 
 Visual Studio Code 1.30.0
 
-## 必要な Visual Studio Code 拡張
+## 必要な Visual Studio Code 拡張
 
 [ExtendScript](https://marketplace.visualstudio.com/items?itemName=hennamann.jsx)
 
