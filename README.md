@@ -6,11 +6,11 @@ Adobe CEP Extension開発についてのレポジトリ
 
 Visual Studio Code 1.30.0
 
-## 必要な Visual Studio Code 拡張
+## あると便利な Visual Studio Code 拡張
 
-[ExtendScript](https://marketplace.visualstudio.com/items?itemName=hennamann.jsx)
-
-[CC Extension Builder](https://marketplace.visualstudio.com/items?itemName=hennamann.jsx)
+1. [ExtendScript](https://marketplace.visualstudio.com/items?itemName=hennamann.jsx)
+2. [CC Extension Builder](https://marketplace.visualstudio.com/items?itemName=hennamann.jsx)
+3. [Adobe Script Runner](https://marketplace.visualstudio.com/items?itemName=renderTom.adobe-script-runner)
 
 ## Getting Started
 
