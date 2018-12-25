@@ -18,7 +18,7 @@
             
             <!-- InDesign -->
             <!-- <Host Name="IDSN" Version="[10.0,11.9]" /> -->
-            <Host Name="IDSN" Version="10.0" />>
+            <Host Name="IDSN" Version="10.0" />
              <!-- InCopy -->
             <!-- <Host Name="AICY" Version="[10.0,11.9]" /> -->  
             
