@@ -75,3 +75,29 @@ defaults write com.adobe.CSXS.9 PlayerDebugMode 1 //ほぼCC 2019用
 ## 実行
 
 manifestでバージョン指定したInDesignを起動し、ウィンドウメニュー＞エクステンションと開くと、先程サンプルとして作成したCEPが選べることができ、実行することができる。
+
+## 証明書の発行
+
+[ここ](https://github.com/Adobe-CEP/CEP-Resources)より、 `ZXPSignCmd` をダウンロードする。以下のコマンドを実行する。
+
+```
+ZXPSignCmd -selfSignedCert 国名コード 地域 組織 名前 パスワード 出力ファイルパス.p12 for osx
+ZXPSignCmd.exe -selfSignedCert 国名コード 地域 組織 名前 パスワード 出力ファイルパス.p12 for win
+```
+
+ツールのコマンドは[PACKAGING AND SIGNING ADOBE EXTENSIONS TECHNICAL NOTE](https://wwwimages2.adobe.com/content/dam/acom/en/devnet/creativesuite/pdfs/SigningTechNote_CC.pdf)を参考にすること。
+
+## パッケージ化
+
+以下のコマンドを実行する。
+
+```
+ZXPSignCmd -sign ソースフォルダのパス 出力ファイルパス.zxp 証明書.p12 設定した証明書のパスワード for osx
+ZXPSignCmd.exe -sign ソースフォルダのパス 出力ファイルパス.zxp 証明書.p12 設定した証明書のパスワード for win
+```
+
+`.zxp` が生成される。
+
+## ZXPをインストールする方法
+
+ZXPをAdobe製品へインストールするには、ツールが必要となる。ExMan Command Line Toolなるものを使用する?
