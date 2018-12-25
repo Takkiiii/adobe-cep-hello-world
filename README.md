@@ -60,7 +60,17 @@ InDesignで使えるように、manifestファイルを修正する。 CSXSフ�
 
 ### DebugModeの設定
 
-コマンドパレットから `Enable CEP Debug Mode` を実行する。これでCEP Extensionをテストできる状態になる（元の状態に戻すときはDisableを実行する）。
+~~コマンドパレットから `Enable CEP Debug Mode` を実行する。これでCEP Extensionをテストできる状態になる（元の状態に戻すときはDisableを実行する）。~~
+
+Debugする時は、以下のコマンドを実行する。
+```
+defaults write com.adobe.CSXS.7 PlayerDebugMode 1 //ほぼCC 2017用
+defaults write com.adobe.CSXS.8 PlayerDebugMode 1 //ほぼCC 2018用
+defaults write com.adobe.CSXS.9 PlayerDebugMode 1 //ほぼCC 2019用
+```
+
+(VSCode上では厳しい？)
+
 
 ## 実行
 
