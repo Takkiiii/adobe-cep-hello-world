@@ -100,4 +100,11 @@ ZXPSignCmd.exe -sign ソースフォルダのパス 出力ファイルパス.zxp
 
 ## ZXPをインストールする方法
 
-ZXPをAdobe製品へインストールするには、ツールが必要となる。ExMan Command Line Toolなるものを使用する?
+ZXPをAdobe製品へインストールするには、ツールが必要となる。ExMan Command Line Toolなるものを使用する。
+
+1. Adobe Extension Manager CCを[こちらから](https://www.adobe.com/jp/exchange/em_download/)ダウンロードする。
+2. Adobe Extension Manager CCをインストールする。
+3. ExManCmdが配置されていのフォルダへ移動する。
+    * Windowsの場合:C:\Program Files\Adobe\Adobe Extension Manager CC\ 
+    * MacOSXの場合:/Applications/Adobe Extension Manager CC/Adobe Extension Manager CC.app/Contents/MacOS/
+4. コマンドラインツールを実行しインストールを開始する。
