@@ -14,6 +14,8 @@ Visual Studio Code 1.30.0
 
 ## Getting Started
 
+※上記の拡張がインストールしている前提
+
 1. コマンドパレットを実行
 2. 「Create a New CC Extension」コマンドを見つける
 3. Extension IDを入力(デフォルトは「com.example.helloworld」)
